@@ -1,0 +1,65 @@
+Frontend:
+src
+│
+├── api
+│   └── apiClient.js
+│
+├── components
+│   └── common
+│
+├── features
+│   └── auth
+│
+├── pages
+│   ├── Home.jsx
+│   └── Dashboard.jsx
+│
+├── hooks
+│
+├── store
+│
+├── services
+│
+├── utils
+│
+├── routes
+│   └── AppRoutes.jsx
+│
+└── App.jsx
+
+
+| Folder     | Purpose           |
+| ---------- | ----------------- |
+| api        | API communication |
+| components | reusable UI       |
+| features   | modular features  |
+| pages      | full pages        |
+| hooks      | custom hooks      |
+| store      | global state      |
+| routes     | navigation        |
+| utils      | helper functions  |
+
+
+npm install axios react-router-dom
+npm install @tanstack/react-query
+npm install zustand
+npm install react-router-dom
+
+
+npm run dev
+
+
+important:
+cd hackathon/backend
+cd hackathon/frontend
+
+important chat: https://chatgpt.com/share/69af6440-bf1c-8008-ba9b-9beca77e33da
+
+
+run backend: uvicorn backend.asgi:application --reload
+
+
+to create a new pages:
+    1) add services
+    2) add pages
+    3) add routes
