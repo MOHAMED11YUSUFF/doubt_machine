@@ -15,6 +15,6 @@ django_app = get_asgi_application()
 application = Starlette(
     routes=[
         Mount("/api", fastapi_app),   # FastAPI endpoints
-        Mount("/", django_app),       # Django endpoints
+        Mount("/admin", django_app),       # Django endpoints
     ]
 )
